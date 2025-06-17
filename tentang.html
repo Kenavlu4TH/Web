@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tentang - KENAVLU</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* === Background Video === */
+    .bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1;
+      filter: brightness(0.5);
+    }
+
+    nav, footer {
+      background-color: rgba(0, 105, 92, 0.85);
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    nav a {
+      display: inline-block;
+      margin: 5px 15px;
+      padding: 10px 25px;
+      background: linear-gradient(to right, #42e695, #3bb2b8);
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(to right, #11998e, #38ef7d);
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0 0 30px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+
+    h1 {
+      color: #ffd54f;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .kenangan-video-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 20px;
+    }
+
+    .video-container {
+      background: rgba(255, 255, 255, 0.05);
+      border: 2px solid #ffd54f;
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      max-width: 700px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .video-container h2 {
+      color: #ffd54f;
+      margin-bottom: 10px;
+    }
+
+    .video-box video {
+      width: 75%;
+      border-radius: 10px;
+      box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    footer {
+      color: white;
+      font-size: 14px;
+      margin-top: 60px;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+    .slideshow-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  animation: slideShow 18s infinite;
+  transition: opacity 1s ease-in-out;
+}
+
+.slide.s1 {
+  background-image: url('img/guru (2).jpg');
+  animation-delay: 0s;
+}
+.slide.s2 {
+  background-image: url('img/guru (3).jpg');
+  animation-delay: 6s;
+}
+.slide.s3 {
+  background-image: url('img/guru (4).jpg');
+  animation-delay: 12s;
+}
+
+@keyframes slideShow {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  30%  { opacity: 1; }
+  40%  { opacity: 0; }
+  100% { opacity: 0; }
+}
+
+  </style>
+</head>
+<body>
+    <body><div class="slideshow-bg">
+        <div class="slide s1"></div>
+        <div class="slide s2"></div>
+        <div class="slide s3"></div>
+      </div>
+  <!-- Navigasi -->
+  <nav>
+    <a href="index copy.html">Beranda</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="galeri.html">Galeri</a>
+  </nav>
+
+  <!-- Konten Utama -->
+  <div class="container">
+    <h1>Tentang KENAVLU</h1>
+    <p><strong>Kenapa sih namanya KENAVLU?</strong></p>
+    <p>Mungkin kalian yang mampir ke website ini sempat bertanya-tanya, kenapa nama kelas kami bisa “KENAVLU”?</p>
+    <p><strong>KENAVLU</strong> adalah singkatan dari <strong>Keluarga ElektroNik tAV tiLU</strong>, yang berarti "keluarga dari jurusan TAV 3". Nama ini merupakan panggilan turun-temurun dari kelas TAV 3 sebelumnya.</p>
+    <p>Awalnya lucu juga sih, pas pertama kali dikasih panggilan itu, agak bingung juga. Tapi lama-lama kami terbiasa dan malah bangga. Sampai akhirnya, kami tetap pakai nama ini sampai lulus sebagai bagian dari identitas kami.</p>
+    <p>Website ini adalah bentuk kenangan kami — cerita random, kebersamaan, dan momen-momen tak terlupakan selama jadi bagian dari keluarga kecil ini. Terima kasih banyak sudah mampir dan menjadi bagian dari kisah ini, walaupun hanya sebentar.</p>
+    <p><strong>KENAVLU — kelas kecil dengan cerita besar.</strong></p>
+
+    <section class="kenangan-video-section">
+      <div class="video-container">
+        <h2>Our Memories</h2>
+        <div class="video-box">
+          <video controls>
+            <source src="assets/break.mp4" type="video/mp4">
+            Browser Anda tidak mendukung video.
+          </video>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 KENAVLU website by Prapanca
+  </footer>
+</body>
+</html>
